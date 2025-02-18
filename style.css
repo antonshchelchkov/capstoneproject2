@@ -1,0 +1,185 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Geist", sans-serif;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.hero , .showcase{
+    background-color:rgb(115, 185, 255);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+
+.hero > * {
+    color: white;
+}
+
+.hero > h1{
+    font-family: "Pacifico", serif;
+    font-size: 70px;
+    min-width: 200px;
+}
+
+.hero > h2{
+    font-family: "Geist", sans-serif;
+    font-size: 40px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+.hero > p {
+    font-size: 22px;
+    font-family: "Geist", sans-serif;
+    margin: 10px 30%;
+    text-align: center;
+}
+
+.calculatoricon{
+    width: 250px;
+    margin: 20px 0px;
+}
+
+.cameraicon{
+    width: 300px;
+}
+
+.pics{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.money{
+    width: 40px;
+}
+
+
+
+.antonselfie{
+    width: 200px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
+.resume{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+}
+.resume > h2{
+    font-size: 40px;
+    font-family: "Pacifico", serif;
+}
+
+.resumelink{
+    font-size: 25px;
+}
+
+.resumecontainer{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    
+    
+}
+
+.experience{
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    align-items: center;
+    gap: 10px 100px;
+
+}
+.experience > h2{
+    text-align: center;
+    font-size: 35px;
+    
+    
+}
+.experience > ul > li{
+    list-style: none;
+    font-size: 20px;
+    text-align: left;
+
+}
+
+hr{
+    margin: 80px;
+    width: 30%;
+    border: 7px dotted rgb(115, 185, 255);
+    border-bottom: none;
+}
+
+.showcase{
+    color: white;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.showcase > h2{
+    font-size: 40px;
+    font-family: "Pacifico", serif;
+    margin-bottom: 40px;
+}
+
+.projectshowcase {
+    margin: 20px;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 3fr;
+    width: 50%;
+    gap: 50px;
+}
+
+.partyinvitepic{
+    display: flex;
+    justify-content: right;
+
+}
+.partyinvitepic > img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.movierankingpic > img{
+    width: 300px;
+    height: 200px;
+    object-fit: contain;
+}
+
+.aboutme{
+    margin: 80px 25%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.aboutme > h2 {
+    font-size: 40px;
+    font-family: "Pacifico", serif;
+    margin-bottom: 40px;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(115, 185, 255);
+    padding-top: 80px;
+    color: white;
+    gap: 30px;
+}
+.contact > h2 {
+
+    margin: 40px 0px;
+    font-size: 40px;
+    font-family: "Pacifico", serif;
+    
+}
